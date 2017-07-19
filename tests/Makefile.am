@@ -101,6 +101,7 @@ check_PROGRAMS = $(PURE_EXECUTABLES) \
 	execve-v \
 	execveat-v \
 	filter-unavailable \
+	filtering_fd \
 	fork-f \
 	fsync-y \
 	getpid	\
@@ -284,6 +285,7 @@ MISC_TESTS = \
 	filtering_expression-empty.test \
 	filtering_expression-syntax.test \
 	filtering_fd-syntax.test \
+	filtering_fd.test \
 	filtering_syscall-syntax.test \
 	fflush.test \
 	get_regs.test \
@@ -363,6 +365,7 @@ EXTRA_DIST = \
 	ipc_msgbuf.expected \
 	ksysent.sed \
 	lstatx.c \
+	mmap_name.sh \
 	match.awk \
 	net.expected \
 	netlink_sock_diag-v.sh \
