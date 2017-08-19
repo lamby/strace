@@ -76,6 +76,7 @@ file_handle
 file_ioctl
 filter-unavailable
 filtering_fd
+filtering_path
 finit_module
 flock
 fork-f
