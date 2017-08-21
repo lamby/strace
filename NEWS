@@ -8,6 +8,10 @@ Noteworthy changes in release ?.?? (????-??-??)
   * Angle brackets are now printed as octal number escape sequences
     in the output of paths associated with file descriptors.
 
+* Changes in command line syntax
+  * New syntax for -e option for filter-based expressions.
+    Traditional syntax is also supported.
+
 * Improvements
   * Implemented delay injection (-e inject=SET:delay_enter= and
     -e inject=SET:delay_exit= options).
