@@ -438,3 +438,9 @@ unwind_capture_stacktrace(struct tcb *tcp)
 		;
 	}
 }
+
+void
+apply_stacktrace(struct tcb *tcp, void *_priv_data)
+{
+	tcp->qual_flg |= QUAL_STACKTRACE;
+}
